@@ -1,0 +1,47 @@
+# === Python / Django ===
+*.pyc
+*.pyo
+__pycache__/
+Smile/**/__pycache__/
+Smile/**/migrations/
+!Smile/**/migrations/__init__.py
+
+# Ignore the SQLite database in Smile folder
+Smile/db.sqlite3
+
+# Virtual environment
+myevm/
+env/
+venv/
+ENV/
+.venv/
+.env
+.env.*
+
+# === React / Node ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env*
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/coverage/
+
+# === Media / Static ===
+Smile/media/
+Smile/staticfiles/
+Smile/static_root/
+
+# === OS and IDE files ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
+
+# === Other common ===
+coverage/
+*.egg-info/
+pip-log.txt
